@@ -1,4 +1,4 @@
-A usage example of [rn-closable-modal](https://www.npmjs.com/package/rn-closable-modal)
+A usage example of [rn-closable-modal](https://github.com/Kouznetsov/ClosableModal)
 
 ## Preview ##
 
