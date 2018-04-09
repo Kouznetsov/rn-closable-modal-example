@@ -29,8 +29,9 @@ export default class App extends Component<Props> {
             <View style={styles.container}>
                 <ClosableModal show={this.state.showModal}
                                onClose={this._onModalClosed}
-                               overlayColor={"rgba(0,0,0,0.5)"}
-                               renderModalContent={this._renderContent}/>
+                               overlayColor={"rgba(0,0,0,0.5)"}>
+                    {this._renderContent()}
+                </ClosableModal>
                 <View style={{alignSelf: "center"}}>
                     <Button
                         style={styles.button}

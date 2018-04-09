@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.2.0",
     "react-native": "0.53.0",
-    "rn-closable-modal": "../ClosableModal/"
+    "rn-closable-modal": "^0.1.6"
   },
   "devDependencies": {
     "babel-jest": "22.2.2",
